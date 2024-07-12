@@ -39,6 +39,6 @@ export function constructMetadata({
       
     },
     icons,
-    metadataBase: new URL("https://casecobra.vercel.app/")
+    metadataBase: new URL("https://SachinEkart.vercel.app")
   }
 }
