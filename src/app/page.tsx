@@ -54,35 +54,35 @@ export default function Home() {
                   src='/users/user-1.png'
                   alt='user image'
                   width={800}
-      height={500}
+                  height={500}
                 />
                 <Image
                   className='inline-block h-10 w-10 rounded-full ring-2 ring-slate-100'
                   src='/users/user-2.png'
                   alt='user image'
                   width={800}
-      height={500}
+                  height={500}
                 />
                 <Image
                   className='inline-block h-10 w-10 rounded-full ring-2 ring-slate-100'
                   src='/users/user-3.png'
                   alt='user image'
                   width={800}
-      height={500}
+                  height={500}
                 />
                 <Image
                   className='inline-block h-10 w-10 rounded-full ring-2 ring-slate-100'
                   src='/users/user-4.jpg'
                   alt='user image'
                   width={800}
-      height={500}
+                  height={500}
                 />
                 <Image
                   className='inline-block object-cover h-10 w-10 rounded-full ring-2 ring-slate-100'
                   src='/users/user-5.jpg'
                   alt='user image'
                   width={800}
-      height={500}
+                  height={500}
                 />
               </div>
 
@@ -110,23 +110,23 @@ export default function Home() {
               alt="Landscape picture"
               className='absolute w-40 lg:w-52 left-56 -top-20 select-none hidden sm:block lg:hidden xl:block'
               width={800}
-      height={900}
+              height={900}
             />
             <Image
               src='/line.png'
               alt="Landscape picture"
               className='absolute w-20 -left-6 -bottom-6 select-none'
               width={800}
-      height={500}
+              height={500}
             />
-            <Phone className='w-64' ImageSrc='/testimonials/1.jpg' 
-      />
+            <Phone className='w-64' ImageSrc='/testimonials/1.jpg'
+            />
           </div>
         </div>
       </MaxWidthWrapper>
     </section>
-        {/* value proposition section */}
-        <section className='bg-slate-100 grainy-dark py-24'>
+      {/* value proposition section */}
+      <section className='bg-slate-100 grainy-dark py-24'>
         <MaxWidthWrapper className='flex flex-col items-center gap-16 sm:gap-32'>
           <div className='flex flex-col lg:flex-row items-center gap-4 sm:gap-6'>
             <h2 className='order-1 mt-2 tracking-tight text-center text-balance !leading-tight font-bold text-5xl md:text-6xl text-gray-900'>
@@ -137,7 +137,7 @@ export default function Home() {
               </span>{' '}
               say
             </h2>
-            <Image src='/snake-2.png' className='w-24 order-0 lg:order-2'  width={800} height={800}alt='snake-2'/>
+            <Image src='/snake-2.png' className='w-24 order-0 lg:order-2' width={800} height={800} alt='snake-2' />
           </div>
 
           <div className='mx-auto grid max-w-2xl grid-cols-1 px-4 lg:mx-0 lg:max-w-none lg:grid-cols-2 gap-y-16'>
@@ -254,7 +254,7 @@ export default function Home() {
                 />
               </div>
 
-              <Phone className='w-60' ImageSrc='/horse_phone.jpg'    />
+              <Phone className='w-60' ImageSrc='/horse_phone.jpg' />
             </div>
           </div>
 
